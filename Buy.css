@@ -1,0 +1,840 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maindivheader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  width: 75%;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 200px;
+  padding: 10px;
+}
+.logo {
+  margin-right: 50px;
+}
+.logo a {
+  color: rgba(245, 73, 73, 0.95);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-decoration: none;
+}
+.logo span {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.subdivone img {
+  width: 50px;
+  height: 35px;
+}
+.headerflex {
+  display: flex;
+  margin-top: 10px;
+}
+.headerflex li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.headerflex a {
+  text-decoration: none;
+  color: black;
+  color: rgba(245, 73, 73, 0.95);
+  font-size: 20px;
+}
+.contact {
+  width: 132px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(245, 73, 73, 0.9);
+  outline: none;
+  border: none;
+}
+#buy {
+  color: #000;
+  font-size: 20px;
+}
+.maindivherosection {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.subdivherosectionone {
+  margin-top: 50px;
+}
+.subdivherosectiontwo img {
+  width: 100%;
+}
+.herosection {
+  margin-bottom: 30px;
+}
+.herosectionlogo {
+  width: 94px;
+  height: 78px;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+.herosectionheading {
+  width: 505px;
+  height: 54px;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+.herosectionlogo span {
+  color: rgba(245, 73, 73, 0.95);
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+}
+.maindivherosectionicon{
+  display: flex;
+  justify-content: center;
+}
+.herosectionlogo {
+  color: #000;
+  font-size: 80px;
+  font-weight: 900;
+}
+.herosectionheading span {
+  color: rgba(245, 73, 73, 0.95);
+  font-size: 48px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.herosectionheading {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+}
+.subheading {
+  width: 500px;
+}
+.maindivheadingflex {
+  display: flex;
+  color: #000;
+  font-size: 36px;
+  font-weight: 400;
+}
+.maindivheadingflex span {
+  color: rgba(245, 73, 73, 0.95);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subdivheadingone,
+.subdivheadingtwo,
+.subdivheadingthree {
+  padding-right: 70px;
+}
+.herosectionpara {
+  width: 500px;
+}
+.herosectionpara p {
+  color: #000;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.65;
+}
+.subdivherosectiontwo button {
+  border-radius: 5px;
+  background: rgba(245, 73, 73, 0.9);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 132px;
+  height: 40px;
+  flex-shrink: 0;
+  outline: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0 0 175px;
+}
+#buttonfont {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(46, 44, 44);
+}
+.maindivheadingicon {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin-top: 20px;
+}
+.iconheading {
+  color: #636363;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.buyheading strong {
+  color: #f54949;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 424px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.buyheading h2 {
+  color: #f54949;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.buyheadingpara p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 921px;
+  height: 100px;
+  flex-shrink: 0;
+  margin: 20px 0 20px 180px;
+}
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cartone,
+.carttwo,
+.cartthree,
+.cartfour,
+.cartfive,
+.cartsix {
+  width: 353.222px;
+  height: auto;
+  flex-shrink: 0;
+  border: 0.879px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 10px;
+}
+.cartimg img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.cartinfo {
+  width: 250px;
+  margin: 10px 0 20px 45px;
+}
+.cartinfo h3 {
+  color: #000;
+  font-size: 17.144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+.cartinfo span {
+  color: #000;
+  font-size: 11.689px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cartinfo p {
+  width: 230px;
+  height: 34.287px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  text-align: start;
+}
+.cartinfo h4 {
+  color: #171616;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15.585px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: start;
+}
+.maindivbutton {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+}
+.subdivbuttonone button {
+  width: 108.317px;
+  height: 33.508px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f65252;
+  outline: none;
+  border: none;
+}
+.subdivbuttonone a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14.027px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.subdivbuttontwo button {
+  width: 108.317px;
+  background-color: transparent;
+  height: 33.508px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #f65252;
+}
+.subdivbuttontwo a {
+  color: #f65252;
+  font-family: Poppins;
+  font-size: 14.027px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.cartbutton {
+  margin: 20px 0 40px 550px;
+}
+.cartbutton button {
+  width: 132px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(245, 73, 73, 0.9);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+}
+.cartbutton a {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactform {
+  width: 1280px;
+  margin-top: 20px;
+}
+.maindivcontactform,
+.maindivfromone,
+.maindivfromtwo,
+.maindivfromthree,
+.maindivformbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.subdivcontactformone h2 {
+  width: 272px;
+  height: 51px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.subdivcontactformone h4 {
+  width: 366px;
+  height: 44px;
+  flex-shrink: 0;
+  color: rgba(245, 73, 73, 0.95);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.subdivformone label {
+  width: 219.896px;
+  height: 30.909px;
+  flex-shrink: 0;
+  color: #636363;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28.26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.subdivformtwo input {
+  border: 1px solid rgba(245, 73, 73, 0.8);
+  width: 300px;
+  height: 40px;
+  margin-left: 20px;
+  outline: none;
+  border-radius: 4px;
+}
+.maindivformbox button {
+  width: 126px;
+  height: auto;
+  background-color: transparent;
+  border: 1px #f54949 solid;
+  border-radius: 4px;
+  padding: 5px;
+}
+.maindivformbox a {
+  text-decoration: none;
+  width: 59px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.maindivfooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: #000;
+  height: auto;
+}
+.maindivicon {
+  display: flex;
+  justify-content: space-between;
+}
+.subdivfooterone {
+  width: 100px;
+  margin: 50px;
+}
+.logofooter {
+  margin-left: 18px;
+}
+.footeritem h2,
+.footerlistitem h2 {
+  width: 209px;
+  flex-shrink: 0;
+  color: rgba(245, 73, 73, 0.95);
+  text-align: start;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 30px 0 0 0;
+}
+.footeritem h4 {
+  width: 196px;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: start;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 10px 0 0px 0;
+}
+.footeritem span {
+  width: 125.921px;
+  height: 16.945px;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: start;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0 10px 0;
+}
+.footeritem p {
+  width: 222px;
+  height: 49px;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: start;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0 30px 0;
+}
+.footerlistitem a {
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footerlistitem li {
+  margin: 5px 0 5px 0;
+}
+.footerform {
+  margin-top: 20px;
+}
+.footerform input {
+  padding: 5px 40px 5px 10px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  outline: none;
+}
+.footerbutton button {
+  width: 115.972px;
+  height: 39.871px;
+  border-radius: 5px;
+  background: rgba(245, 73, 73, 0.9);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+  border: none;
+}
+
+.footerbutton a {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subdivfooterfive {
+  margin-right: 50px;
+}
+.copyright {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.97);
+  padding: 5px;
+}
+.copyright span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.copyright b {
+  color: rgba(245, 73, 73, 0.95);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 500px) {
+  .maindivherosection,
+  .maindivheader,.maindivlocationone,.maindivlocationtwo{
+      display: block;
+  }
+  .subdivherosectionone,
+  .subdivcontactformtwo,
+  .locationbutton,
+  .cartbutton,
+  .subdivfooterfive,
+  .subdivlocationthree,
+  .subdivlaptopimgthree,
+  .subdivlaptopimgtwo,
+  .subdivphoneimgthree,
+  .subdivphoneimgtwo,
+  .herosectionlogo,.carttwo.cartthree,.cartfive,.cartsix ,.carttwo,.cartthree,.subdivfooterone,.subdivfooterfive{
+      display: none;
+  }
+  .logo a,
+  .herosectionheading {
+      font-size: 30px;
+      padding-bottom: 2px;
+  }
+  .logo span,
+  .herosectionheading span{
+      font-size: 30px;
+  }
+  .subdivheadingone, .subdivheadingtwo, .subdivheadingthree,.maindivheadingflex span{
+   font-size: 18px;
+  }
+  .logo {
+      width: auto;
+      margin-right: 20px;
+  }
+  .headerflex li {
+      margin-right: 15px;
+  }
+  .headerflex a,
+  #home {
+      font-size: 12px;
+  }
+  .maindivheader {
+      display: flex;
+      box-shadow: none;
+      margin-left: 45px;
+  }
+  .contact {
+      width: 70px;
+      height: 25px;
+  
+  }
+  #buttonfont {
+      font-size: 10px;
+      padding: 5px;
+  }
+  .subdivheadingone, .subdivheadingtwo, .subdivheadingthree{
+      padding-right: 50px;
+  }
+  .buyheadingpara p,
+  .phonepara p,
+  .phonepara,
+  .laptoppara,
+  .laptoppara p {
+      color: rgba(0, 0, 0, 0.6);
+      text-align: cent    er;
+      font-size: 8px;
+      width: 400px;
+      height: auto;
+      margin: 10px 0 10px 0px;
+  }
+  .subdivphonetwo {
+      font-size: 12px;
+      text-align: start;
+  }
+  .maindivlaptop,
+  .maindivphone {
+      display: flex;
+      justify-content: center;
+      margin-top: -20px
+  }
+  .maindivlaptopimg, .maindivphoneimg {
+      margin-top: 30px;
+  }
+  
+  
+  .subdivherosectiontwo {
+      margin: 10px 0  10px 50px;
+  }
+  .herosectionpara p {
+      font-size: 11px;
+  }
+  .herosectionpara{
+      width: 300px;
+
+  }
+  .subdivherosectiontwo button {
+      width: auto;
+  }
+  .iconheading {
+      font-size: 10px;
+  }
+  .maindivherosectionicon img{
+      width: 20px;
+      height: 20px;
+  }
+  .headingservices h2,.headingdevices h2 ,.locations h2,.subdivcontactformone h2{
+      font-size: 32px;
+      margin: 5px;
+  }
+  .headingdevices h2{
+      margin: 10px 0 10px 60px;
+
+  }
+  .subdivcontactformone h2{
+      margin-left:-15px ;
+  }
+  .subdivherosectiontwo button{
+      margin-left: 110px;
+      width: 70px;
+  height: 30px;
+  margin-top: 15px
+  }
+  .maindivservicesone h3, .maindivservicestwo h3, .maindivservicesthree h3,.subdivlocationone h3{
+      font-size: 14px;
+  }
+  .maindivservicesone p, .maindivservicestwo p, .maindivservicesthree p{
+      width: auto;
+      font-size: 12px;
+  }
+  .subdivservicestwo img, .subdivservicesone img {
+      margin: 6px;
+      width: 100px;
+  }
+  .services button,.devices button{
+      margin-left: 150px;
+      width: 70px;
+      height: 30px;
+      margin-top: 20px;
+  }
+  .subdivlaptopone, .subdivphoneone {
+      font-size: 18px;
+      width: auto;
+      margin-top: 11px;
+  }
+  .subdivlaptoptwo, .subdivphonetwo{
+      font-size: 12px;
+      width: auto;
+  }
+  .addressbox {
+      width: auto;
+      height: auto;
+      flex-shrink: 0;
+      border-radius: 5px;
+      border: 1px solid rgba(245, 73, 73, 0.7);
+      padding: 5px;
+  }
+  .subdivlocationone {
+      padding: 0;
+  }
+  .addresspara,.maindivaddress {
+      margin-left: -5px;
+      width: auto;
+  }
+  .addressbox button {
+      width: auto;
+      height: auto;
+      flex-shrink: 0;
+      border-radius: 5px;
+      border: 0.929px solid rgba(245, 73, 73, 0.7);
+      margin: 0px 0 0 150px;
+      padding: 3px;
+  }
+  .subdivlocationone p {
+      width: auto;
+      height: auto;
+      font-size: 14px;
+      padding-bottom: 10px;
+  }
+  .subdivcontactformone h4 {
+      width: auto;
+      height: auto;
+      font-size: 16px;
+     text-align: start;
+      margin-top: -20px;
+   margin-left: 35px;
+  }
+  .subdivformtwo input {
+      width: 255px;
+      height: 25px;
+      margin-left: 10px;
+  }
+  .subdivformone label {
+      font-size: 15px;
+  }
+  .maindivcontactform, .maindivfromone, .maindivfromtwo, .maindivfromthree, .maindivformbox {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+      margin-bottom: 5px;
+  }
+  .maindivformbox button {
+      width: 90px;
+  }
+  .footeritem h2, .footerlistitem h2 {
+      width: auto;
+      font-size: 15px;
+      padding: 20px 0 0 0;
+  }
+  .footerlistitem a {
+      font-size: 12px;
+  }
+  .footeritem h4 {
+      font-size: 15px;
+      padding: 6px 0 0px 0;
+  }
+  .copyright span {
+      color: #fff;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  .copyright b {
+      color: rgba(245, 73, 73, 0.95);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  footeritem span {
+      width: 125.921px;
+      height: 16.945px;
+      flex-shrink: 0;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: start;
+      font-family: Poppins;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding: 0px 0 0px 0;
+  }
+}
